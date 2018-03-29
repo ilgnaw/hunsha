@@ -1,0 +1,479 @@
+
+/*初始化 B*/
+body, h1, h2, h3, h4, h5, h6, ul, dl, dt, dd, input, form, button, p {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+input, button {
+    border: 0 none;
+    outline-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.w {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+/*初始化 E*/
+
+/*nav B*/
+
+.chf_topnav{
+    width: 100%;
+    height: 47px;
+    line-height: 47px;
+    background-color: #F2F2F2;
+    border: 1px solid #E3E3E3;
+
+    margin-bottom: 20px;
+}
+.chf_topnav .chf_fl{
+    height: 47px;
+    margin: 0 auto;
+    /*float: left;*/
+}
+.top_ul {
+    width: 700px;
+    height: 47px;
+}
+.top_ul li{
+    float: left;
+    width: 110px;
+    height: 48px;
+    text-align: center;
+}
+.top_ul li a{
+    display: inline-block;
+    width: 110px;
+    color:#353535;
+    transition: background-color 1s,width 1s;
+}
+.top_ul li a:hover{
+    background-color: #ff4e7e;
+    width: 115px;
+    color: white;
+
+}
+.span{
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 47px;
+    margin-left: 0;
+    /*background: url('../images/LELhome.jpg') no-repeat 0 0;*/
+}
+.span:hover{
+    /*background: url("../images/home.jpg") no-repeat 0 -96px;*/
+}
+
+.chf_topnav button{
+    width: 40px;
+    height: 30px;
+    border: 0 none;
+    /* background-color: #F2F2F2;*/
+    background: rgba(0,0,0,0);
+    font-size: 12px;
+}
+.chf_topnav button a{
+    display: inline-block;
+    width: 40px;
+    color: #353535;
+}
+.chf_btn{
+    position: relative;
+    width: 100px;
+    height: 47px;
+}
+.chf_btn .change{
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(255,78,126,1);
+    position: absolute;
+    top:8px;
+    left:0;
+}
+#chf_login{
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+#chf_register{
+    position: absolute;
+    top: 8px;
+    left: 50px;
+}
+#chf_login a{
+    color: white;
+}
+#chf_login,#chf_register{
+    z-index: 2;
+}
+.chf_icon{
+    height: 42px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.chf_icon .icon1 {
+    display: inline-block;
+    width: 18px;
+    height: 21px;
+    background: url("../images/icon1.jpg") no-repeat;
+}
+.chf_icon .icon2 {
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+    background: url("../images/icon2.jpg") no-repeat;
+}
+.chf_icon .icon3 {
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+    background: url("../images/icon3.jpg") no-repeat;
+}
+.chf_icon .icon4 {
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+    background: url("../images/icon4.jpg") no-repeat;
+}
+.ewm {
+    width: 93px;
+    height: 91px;
+    position: absolute;
+    /*background: url("../images/wx.jpg") no-repeat ;*/
+    z-index: 1;
+}
+/*nav E*/
+
+
+/*top B*/
+.E_bigImg{
+    width: 1680px;
+    height: 520px;
+    background: url(../images/1.jpg) no-repeat center center;
+    margin: 0 auto;
+}
+/*top E*/
+/*text B*/
+.E_text{
+    height: 142px;
+    background: white;
+    margin: 30px auto;
+}
+.E_text b{
+    display: block;
+    width: 615px;
+    height: 142px;
+    background: url(../images/LELsimg.png);
+    margin: 0 auto;
+}
+/*text E*/
+/*content B*/
+.E_content{
+    height: 550px;
+    margin:0 auto;
+}
+.E_content ul{
+    width: 1150px;
+    height: 550px;
+    margin: 0 auto;
+}
+.E_content ul li{
+    float: left;
+    position: relative;
+}
+.E_content ul li a{
+    display: inline-block;
+    width: 376px;
+    height: 550px;
+}
+.E_content ul .l1 a .b1{
+    display: inline-block;
+    width: 376px;
+    height: 550px;
+    background: url(../images/LELc1.png) no-repeat center center;
+}
+.E_content ul .l1_box{
+    width: 376px;
+}
+.E_content ul .l1_box h3{
+    margin-top: 10px;
+
+}
+.E_content ul li{
+    position: relative;
+}
+.l1 .c_video{
+    width: 220px;
+    height: 200px;
+}
+.l1 .c_video .b11{
+     width: 100px;
+     height: 100px;
+     background: url(../images/LELc2v.png) no-repeat;
+     position: absolute;
+     float: left;
+     top:220px;
+     left:130px;
+ }
+.l2 .c_video .b11{
+    width: 100px;
+    height: 100px;
+    background: url(../images/LELc2v.png) no-repeat;
+    position: absolute;
+    float: left;
+    top:220px;
+    left:130px;
+}
+.l3 .c_video .b11{
+    width: 100px;
+    height: 100px;
+    background: url(../images/LELc2v.png) no-repeat;
+    position: absolute;
+    float: left;
+    top:220px;
+    left:130px;
+}
+.E_content ul .l2 a .b2{
+    display: inline-block;
+    width: 376px;
+    height: 550px;
+    background: url(../images/LELc2.png) no-repeat center center;
+}
+.E_content ul .l2{
+    margin: 0 10px;
+}
+.E_content ul .l3 a .b3{
+    display: inline-block;
+    width: 376px;
+    height: 550px;
+    background: url(../images/LELc3.png) no-repeat center center;
+}
+#copy{
+    margin-top: 50px;
+}
+#copy .l1 a .b1{
+    display: inline-block;
+    width: 376px;
+    height: 550px;
+    background: url(../images/LELmeet.jpg) no-repeat center center;
+}
+#copy .l2 a .b2{
+    display: inline-block;
+    width: 376px;
+    height: 550px;
+    background: url(../images/LELh.jpg) no-repeat center center;
+}
+#copy .l3 a .b3{
+    display: inline-block;
+    width: 376px;
+    height: 550px;
+    background: url(../images/LELn.jpg) no-repeat center center;
+}
+.E_content ul li .work{
+    width: 376px;
+    height: 550px;
+    background: pink;
+    display:none;
+    opacity:0.2;
+    z-index: 1;
+}
+/*content E*/
+/*txt B*/
+.E_text{
+    margin-top: 74px;
+    width: 615px;
+    height: 143px;
+    background: url(../images/LELsimg.png);
+
+
+}
+/*txt E*/
+/*左侧飘窗 B*/
+.jcContact{position:absolute;top:0;left:0;z-index:99;width:215px;}
+/*.jcConraper{width:174px;background:url(../images/LELleft-fd.png) repeat-y 0 0;overflow:hidden;}*/
+.jcConBtn{_background:url(../images/LELleft-fd.png) no-repeat;position:absolute;top:0;left:0;width:41px;height:116px;cursor:pointer;}
+
+
+
+/*左侧飘窗 E*/
+
+/*3d动画效果*/
+.wrapper{
+    max-width:1150px;
+    margin:0 auto;
+}
+.wrapper li{
+    position: relative;
+    width: 370px;
+    height: 370px;
+    list-style:none;
+    margin: 5px;
+    display: inline-block;
+    perspective:300px;
+    -webkit-perspective:300px;	/* Safari 和 Chrome */
+}
+.picBox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-style: preserve-3d;
+    transform-origin: 50% 50% -180px;
+    animation: 200ms ease-out 0ms 1 normal forwards;
+}
+
+.show,
+.hide{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.hide{
+    color:#fff;
+    background-color:pink;
+    text-align:center;
+    line-height:350px;
+    transform: translate3d(0,0,-1px);
+    font-family: '华文行楷';
+    font-size: 30px;
+    /* 3D空间内移动一个元素的位置 */
+}
+.hide h3 span{
+    color:red;
+}
+
+
+.in-top .hide,
+.out-top .hide
+{
+    transform-origin: 0% 100%;
+    transform: translate3d(0, -100%, 0) rotate3d(1,0,0,90deg);
+}
+.in-top .picBox{
+    animation-name: in-top;
+    animation-play-state: running;
+}
+.out-top .picBox{
+    animation-name: out-top;
+    animation-play-state: running;
+}
+@keyframes in-top {
+    from  {transform: rotate3d(0,0,0,0deg)}
+    to    {transform: rotate3d(-1,0,0,90deg)}
+}
+
+@keyframes out-top {
+    from {transform: rotate3d(-1,0,0,90deg)}
+    to   {transform: rotate3d(0,0,0,0deg)}
+}
+.in-right .hide,
+.out-right .hide {
+    transform-origin: 0% 0%;
+    transform: translate3d(100%, 0, 0) rotate3d(0,1,0,90deg);
+}
+.in-right .picBox{
+    animation-name: in-right;
+    animation-play-state: running;
+}
+.out-right .picBox{
+    animation-name: out-right;
+    animation-play-state: running;
+}
+@keyframes in-right {
+    from  {transform: rotate3d(0,0,0,0deg)}
+    to    {transform: rotate3d(0,-1,0,90deg)}
+}
+
+@keyframes out-right {
+    from  {transform: rotate3d(0,-1,0,90deg)}
+    to    {transform: rotate3d(0,0,0,0deg)}
+}
+
+.in-bottom .hide,
+.out-bottom .hide {
+    transform-origin: 0% 0%;
+    transform: translate3d(0, 100%, 0) rotate3d(-1,0,0,90deg);
+}
+.in-bottom .picBox{
+    animation-name: in-bottom;
+    animation-play-state: running;
+}
+.out-bottom .picBox{
+    animation-name: out-bottom;
+    animation-play-state: running;
+}
+@keyframes in-bottom {
+    from  {transform: rotate3d(0,0,0,0deg)}
+    to    {transform: rotate3d(1,0,0,90deg)}
+}
+@keyframes out-bottom {
+    from  {transform: rotate3d(1,0,0,90deg)}
+    to    {transform: rotate3d(0,0,0,0deg)}
+}
+.in-left .hide,
+.out-left .hide {
+    transform-origin: 100% 0;
+    transform: translate3d(-100%,0,0) rotate3d(0,-1,0,90deg);
+}
+@keyframes in-left {
+    from  {transform: rotate3d(0,0,0,0deg)}
+    to    {transform: rotate3d(0,1,0,90deg)}
+}
+@keyframes out-left {
+    from  {transform: rotate3d(0,1,0,90deg)}
+    to    {transform: rotate3d(0,0,0,0deg)}
+}
+.in-left .picBox{
+    animation-name: in-left;
+    animation-play-state: running;
+}
+.out-left .picBox{
+    animation-name: out-left;
+    animation-play-state: running;
+}
+.img3D{
+    width: 370px;
+    height: 370px;
+}

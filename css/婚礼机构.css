@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #fff;
+}
+/*导航开始*/
+.cw_container{
+  text-align: center;
+}
+.cw_header {
+  width:1366px;
+  height: 50px;
+  line-height: 50px;
+  background-color:#f2f2f2 ;
+}
+.cw_header .top{
+  margin: 0 auto;
+}
+.cw_header .jiantou{
+  width: 50px;
+  height: 48px;
+  overflow: hidden;
+  margin-right: 50px;
+}
+.cw_header .content li {
+  float: left;
+  width: 100px;
+  text-align: center;
+  font-size: 14px;
+}
+.cw_header ul li a{
+  color: #000;
+}
+.cw_header ul li:hover{
+  color: #fff;
+  background-color:#ff4e7e ;
+  cursor: pointer;
+}
+.cw_header .content ul li:first-child{
+  margin-left: 50px;
+}
+.cw_header .input {
+  float: right;
+  font-size: 12px;
+  color:#000;
+  text-decoration: none;
+  outline: none;
+  cursor: auto;
+  margin-right: 200px;
+}
+.cw_header .sign{
+  float: right;
+  margin-right: -190px;
+}
+
+/*广告部分开始*/
+.cw_banner{
+  height: 140px;
+  margin-top: 30px;
+}
+.cw_banner  img:first-child{
+  margin-right: 30px;
+}
+.cw_banner img{
+  float: left;
+}
+
+/*旅拍机构开始*/
+.cw_travel .line{
+  height: 1px;
+  line-height: 1px;
+  font-size: 0;
+  background: #88d4d3;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.cw_travel .text{
+  text-align: center;
+}
+.cw_travel .text .more{
+  font-weight: bold;
+  color: #88d4d3;
+  font-size: 16px;
+  float: right;
+}
+.cw_travel {
+  height: 315px;
+  margin:0 auto;
+}
+.cw_travel ul li img{
+  width: 260px;
+  height: 200px;
+}
+.cw_travel ul li{
+  float: left;
+  margin-left: 15px;
+  vertical-align: baseline;
+  text-align: center;
+  position: relative;
+  margin-top: 35px;
+}
+.cw_travel ul li:first-child{
+  margin-left: 30px;
+}
+.cw_travel ul li .box{
+  position: absolute;
+  left: 60px;
+  top: 150px;
+}
+.cw_travel ul li:hover{
+  cursor: pointer;
+}
+.cw_travel ul li span{
+  font-size: 20px;
+  color:#000;
+}
+.cw_travel ul li p{
+  font-size: 14px;
+}
+
+/*服务项目开始*/
+.cw_service{
+  height: 335px;
+}
+.cw_service .line{
+  height: 1px;
+  line-height: 1px;
+  font-size: 0;
+  background: #88d4d3;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.cw_service .text .more{
+  font-weight: bold;
+  color: #88d4d3;
+  font-size: 16px;
+  float: right;
+}
+.cw_service ul {
+  height: 218px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.cw_service ul li img{
+  width: 90px;
+  height: 60px;
+  margin: 5px 0 0 20px;
+}
+.cw_service ul li{
+  float: left;
+  width: 306px;
+  height: 90px;
+  line-height: 90px;
+  border: 1px solid #999999;
+  box-shadow: 3px 3px 3px #afafaf;
+  margin: 2% 0 0 3%;
+}
+.cw_service ul li h4{
+  float: right;
+  font-size: 16px;
+  font-weight: normal;
+  margin-right: 10%;
+}
+.cw_service ul li h4:hover{
+  color: #f10215;
+  cursor: pointer;
+}
+
+/*合作酒店*/
+.cw_totle{
+  height: 335px;
+}
+.cw_totle .line{
+  height: 1px;
+  line-height: 1px;
+  font-size: 0;
+  background: #88d4d3;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+.cw_totle .text .more{
+  font-weight: bold;
+  color: #88d4d3;
+  font-size: 16px;
+  float: right;
+}
+.cw_totle ul {
+  width:1150px;
+  margin:0 auto;
+  height: 218px;
+  margin-top: 30px;
+}
+.cw_totle ul li img{
+  width: 150px;
+  height: 120px;
+  margin-top: 13px;
+
+}
+.cw_totle ul li{
+  float: left;
+  margin: 0 1% 0 1%;
+  width: 180px;
+  height: 160px;
+  border: 1px solid #000;
+  border-radius:48px;
+  transition:1.5s;
+}
+.cw_totle ul li:hover{
+  transform: rotate(360deg);
+}
+.cw_totle ul li:first-child{
+  margin-left: 58px;
+}
+
+/*关于我们*/
+.cw_aboutus .line{
+  height: 1px;
+  line-height: 1px;
+  font-size: 0;
+  background: #88d4d3;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.cw_aboutus .more{
+  font-weight: bold;
+  color: #88d4d3;
+  font-size: 16px;
+  float: right;
+}
+.cw_aboutus ul li{
+  float: left;
+  margin-top: 30px;
+  margin-right: 15px;
+  transition: all 1s;
+}
+.cw_aboutus ul li:first-child{
+  margin-left: 30px;
+}
+.cw_aboutus ul li:hover{
+  transform: scale(0.9,0.9);
+}
+.cw_aboutus ul li img{
+  width: 260px;
+  height: 392px;
+}
+
+/*底部结尾*/
+.cw_footer{
+  height: 100px;
+  line-height: 100px;
+}
+.cw_footer .line{
+  height: 1px;
+  line-height: 1px;
+  font-size: 0;
+  background: #88d4d3;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.cw_footer ul li{
+  float: left;
+  position: relative;
+  width: 350px;
+}
+.cw_footer ul li p{
+  position: absolute;
+  font-size: 16px;
+  left: 220px;
+  top: 0px;
+  width: 100px;
+}
+.cw_footer ul li span{
+  position: absolute;
+  font-size: 14px;
+  left: 180px;
+  top: 20px;
+  width: 200px;
+}
+
+
+

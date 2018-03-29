@@ -1,0 +1,256 @@
+/*<!-- 顶部通栏部分 -->*/
+.top_nav{
+	height: 49px;
+	background-color: #f2f2f2;
+	position: relative;
+}
+.top_nav .photo span{
+	display: inline-block;
+	float: left;
+	width: 50px;
+	height: 48px;
+}
+.top_nav .photo a{
+	display: inline-block;
+	width: 50px;
+	height: 48px;
+	background: url(../images/home.jpg) no-repeat 0 0;
+}
+.top_nav .photo a:hover{
+	background: url(../images/home.jpg) no-repeat 0 -48px;
+}
+.top_nav .left_nav li{
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+}
+.top_nav .left_nav .current{
+	background-color:#ff4f7d;
+}
+.top_nav .left_nav .current a:hover{
+color:#353535;
+}
+.top_nav .left_nav li a{
+	display: block;
+	width: 110px;
+	color: #353535;
+	font-size: 14px;
+}
+.top_nav .left_nav li a:hover{
+	color: #ff4f7d;
+	box-shadow: 1px 0.3px  2px 2px  #ccc;
+}
+.right_nav {
+	float: right;
+	line-height: 48px;
+	text-align: center;
+
+}
+.right_nav a{
+	color: #353535;
+	font-size: 14px;
+}
+.right_nav span{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 12px;
+}
+.right_nav span a:hover{
+	color: #ff4f7d;
+	box-shadow: 1px 0.3px  2px 2px  #ccc;
+}
+/*--logo部分--*/
+.logo{
+	height: 112px;
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+.logo .logo_left img{
+	float: left;
+	width: 200px;
+	height: 82px;
+	margin-top: 16px;
+}
+.logo .logo_right img{
+	float: left;
+	padding-left: 30px;
+}
+/*<!-- --小盒子背景部分-- -->*/
+.box{
+	height: 8px;
+	background-color: #f2f2f2;
+}
+/*<!-- --中间轮播图部分  banner-- -->*/
+.banner{
+	width: 1150px;
+	height: 463px;
+	margin-top: 40px;
+	position: relative;
+	overflow: hidden;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin-bottom: 40px;
+
+}
+.banner .content{
+	position: absolute;
+	width: 4600px;
+	height: 463px;
+	/*left: -1150px;*/
+}
+.banner .content li{
+	width: 1150px;
+	float: left;
+	height:463px;
+}
+/*<!--右侧按钮-->*/
+.banner .btn{
+	width: 30px;
+	height: 60px;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top:50%;
+	margin-top: -30px;
+	cursor: pointer;
+	text-align: center;
+	font:20px/60px '宋体';
+	color:#fff;
+	display: none;
+
+}
+.banner .rightBtn{
+	right: 0;
+}
+/*<!-- -banner中的小原点部分-- -->*/
+.banner .control {
+	position: absolute;
+	width: 60px;
+	left: 50%;
+	bottom: 17px;
+	margin-left: -9px;
+}
+.banner .control li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	background-color: #999999;
+	border-radius: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.banner .control a{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+}
+.banner .control  .active{
+	background-color: #ff4e7e;
+}
+
+.city{
+	height: 463px;
+	overflow: hidden;
+	width: 1150px;
+	margin: 100px auto 0;
+	margin-bottom: 40px;
+}
+.center li img{
+	width: 856px;
+	height: 463px;
+}
+.top,.center,.bottom {
+	float: left;
+	height: 463px;
+}
+.city .top{
+	width: 140px;
+}
+.city .top li {
+	line-height: 88px;
+	text-align: left;
+}
+.city .top li a,.city .bottom li a{
+	display: block;
+	color: #737373;
+	transition: all 1s;
+
+}
+.city .bottom {
+	width: 140px;
+}
+.city .bottom li{
+	line-height: 88px;
+	text-align: left;
+	margin-left: 10px;
+}
+.city .top li a:hover,.city .bottom li a:hover{
+	color:#ff4e7e;
+	box-shadow: 1px 0.3px  2px 2px  #ccc;
+}
+/*<!--底部列表部分-->*/
+.footerList{
+	height: 126px;
+	border-top: 1px solid #dbdbdb;
+}
+.list1{
+	margin-top: 25px;
+
+}
+.list1 ul{
+	float: left;
+	width: 145px;
+	height: 100px;
+	border-left:1px solid #e5e5e5;
+}
+.list1 li{
+
+	font-size: 12px;
+	height: 25px;
+	padding-left: 12px;
+}
+.list1 li a{
+	color: #8c8c8c;
+}
+.list1 li a:hover{
+	color: #ff4d92;
+}
+.list1 .pt{
+	float: right;
+}
+/*<!--底部版权部分-->*/
+.Copyright{
+	margin-top: 65px;
+	position: relative;
+}
+.hlfs{
+	float: left;
+	padding-left: 287px;
+}
+.footerBar li{
+	float: left;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-right: 12px;
+	margin-left: 4px;
+
+}
+.footerBar li a{
+	color: #9c9c9c;
+	border-right: 1px solid #9c9c9c;
+	padding-right: 10px;
+}
+.footerCopyRight{
+	padding-left: 309px;
+	position: absolute;
+	top: 25px;
+	right: 415px;
+}
+.footerCopyRight p{
+	font-size: 12px;
+	color:#9c9c9c ;
+}

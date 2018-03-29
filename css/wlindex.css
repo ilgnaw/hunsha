@@ -1,0 +1,633 @@
+/*这里是说明是啥用的盒子*/
+
+
+/*上面是初始化*/
+/*过渡图片的开始*/
+.wlpicture img {
+    transition: all 3s;
+    width: 1150px;
+    height: 650px;
+}
+
+
+
+/*过渡图片的结束*/
+
+/*最顶部的那张图片，在过渡图片结束后立即显示*/
+.wltoppic img {
+    width: 1150px;
+    height: 117px;
+    /*display: none;*/
+    /*margin-bottom: 10px;*/
+
+
+}
+
+/*.wlbanner_top {*/
+    /*width: 1150px;*/
+    /*height: 508px;*/
+    /*margin-bottom: 15px;*/
+
+    /*/!*border:1px solid #000000;*!/*/
+/*}*/
+
+/*大轮播图*/
+.wlslider {
+    height: 508px;
+    width: 1150px;
+    position: relative;
+}
+
+.wlslider li {
+    position: absolute;
+    display: none;
+}
+
+.wlslider li:first-child {
+    display: block;
+}
+
+/*.wlarrow {*/
+    /*display: none;*/
+/*}*/
+
+/*.wlslider:hover .wlarrow {*/
+    /*display: block;*/
+/*}*/
+/*两大排*/
+.chf_mainpic li {
+    width: 278px;
+    height: 455px;
+    float: left;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all 1s;
+}
+.chf_mainpic li img {
+    width: 278px;
+    height: 404px;
+}
+.chf_mainpic li:hover{
+
+    box-shadow: 2px 5px 7px #888888;
+    transform: translate3d(0,-5px,0);
+}
+
+.chf_mainpic li:first-child,.chf_mainpic li:nth-child(5){
+    margin-left: 0;
+}
+.chf_mainpic .p1{
+
+    margin-top: 10px;
+    line-height: 20px;
+}
+.chf_mainpic li {
+    position: relative;
+    overflow: hidden;
+}
+.chf_mainpic .wlshower{
+    width: 278px;
+    height: 455px;
+    background-color: #fff;
+    position: absolute;
+    top:-455px;
+    opacity: 0;
+    transition: all 3s;
+    background:rgba(0,0,0,0.1);
+    /*display: none;*/
+    background-color: #ccc;
+}
+.chf_mainpic .p1 a{
+    color: #585858;
+}
+.chf_mainpic .p2 a{
+    color: #B4B4B4;
+    font-size: 12px;
+}
+
+
+.wlarrow-left,
+.wlarrow-right {
+    font-family: "SimSun", "宋体";
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.wlarrow-left:hover,
+.wlarrow-right:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.wlarrow-left {
+    left: 0;
+}
+
+.wlarrow-right {
+    right: 0;
+}
+
+
+
+
+/*大轮播图*/
+.wlbanner_top-b{
+    margin-top: 20px;
+}
+.wlbanner_top-b li {
+    float: left;
+}
+
+.wlbanner_top-b li:first-child {
+    margin: 0;
+}
+
+.wlbanner_top-b li {
+    margin: 0 0 0 6px;
+}
+
+
+
+
+
+
+
+/*                   */
+.wlinfohead {
+    height: 148px;
+    margin: 20px 0 0 0;
+}
+
+.wlinfotitle {
+    height: 42px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.wlinfotitle a {
+    color: #737373;
+}
+
+.wlinfotitle a:hover {
+    color: #ff4d7d;
+}
+
+.wlinfomore {
+    height: 52px;
+    margin: 15px 0 0 0;
+    text-align: center;
+}
+
+.wlinfomore a {
+    margin: 0 auto;
+    display: block;
+    width: 226px;
+    height: 50px;
+    border: #ff4d7d 1px solid;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    background: #ff4d7d;
+}
+
+.wlinfotitle2 {
+    margin-top: 16px;
+    text-align: center;
+
+}
+
+.wlinfotitle2 a {
+    margin: 0 auto;
+    display: inline-block;
+    width: 56px;
+    color: #737373;
+    height: 19px;
+    font-size: 14px;
+}
+
+.wlinfotitle2 a:hover {
+    color: #ff4d7d;
+}
+
+/*两张图片的开始*/
+.wlinfobanner {
+    margin: 36px 0 0 0;
+    height: 210px;
+
+
+}
+
+
+
+.wlinfobanner li{
+    float: left;
+    /*position: relative;*/
+}
+.wlinfobanner_left {
+
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    margin-left:50px;
+    margin-right: 50px;
+    border-radius: 50%;
+    transition: all 3s;
+    /*border:1px solid #ffff00;*/
+}
+
+.wlinfobanner_left img {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: -100px;
+    left: -100px;
+    cursor: pointer;
+}
+.wlinfobanner_right {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 3s;
+}
+
+.wlinfobanner_right img {
+    position: absolute;
+    width:400px;
+    height: 400px;
+    top: -100px;
+    left: -100px;
+    cursor: pointer;
+}
+/*container开始*/
+.wlcontainer {
+    margin: 33px 0 0 0;
+}
+
+.wlcontainer li {
+    float: left;
+    margin-right: 26px;
+}
+
+.wlcontainer li:last-child {
+    margin-right: 0;
+}
+
+
+.wlbanner {
+
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.wlbanner #wllist {
+    height: 40px;
+}
+
+.wlbanner #wllist li {
+    text-align: center;
+    float: left;
+    width: 280px;
+    height: 40px;
+    font: 16px/40px "microsoft yahei";
+}
+
+.wlbanner #wllist li.act {
+    border-top: 3px solid pink;
+}
+
+#wlphotobox div {
+    display: none;
+}
+
+#wlphotobox div img {
+
+}
+
+#wlphotobox div.active {
+    display: inline-block;
+}
+/*火箭地方的*/
+#rocket{
+    position: fixed;
+    bottom:100px;
+    right:50px;
+    cursor: pointer;
+    /*display: none;*/
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+/*顶部导航开始*/
+
+.chf_topnav{
+    width: 100%;
+    height: 47px;
+    line-height: 47px;
+    background-color: #F2F2F2;
+    border: 1px solid #E3E3E3;
+    /*margin-bottom: 20px;*/
+}
+.top_ul {
+    width: 700px;
+    height: 47px;
+}
+.top_ul li{
+    float: left;
+    width: 110px;
+    height: 48px;
+    text-align: center;
+}
+.top_ul li a{
+    display: inline-block;
+    width: 110px;
+    color:#353535;
+    transition: background-color 1s,width 1s;
+}
+.top_ul li a:hover{
+    background-color: #ff4e7e;
+    width: 115px;
+    color: white;
+
+}
+.span{
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 47px;
+    margin-left: 0;
+    background: url('../images/wlhome.jpg') no-repeat 0 0;
+}
+.span:hover{
+    background: url("../images/wlhome.jpg") no-repeat 0 -96px;
+}
+
+.chf_topnav button{
+    width: 40px;
+    height: 30px;
+    border: 0 none;
+    /* background-color: #F2F2F2;*/
+    background: rgba(0,0,0,0);
+    font-size: 12px;
+}
+.chf_topnav button a{
+    display: inline-block;
+    width: 40px;
+    color: #353535;
+}
+.chf_btn{
+    position: relative;
+    width: 100px;
+    height: 47px;
+}
+.chf_btn .change{
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(255,78,126,1);
+    position: absolute;
+    top:8px;
+    left:0;
+}
+#chf_login{
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+#chf_register{
+    position: absolute;
+    top: 8px;
+    left: 50px;
+}
+#chf_login a{
+    color: white;
+}
+#chf_login,#chf_register{
+    z-index: 2;
+}
+.chf_icon{
+    height: 42px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.chf_icon .icon1 {
+    display: inline-block;
+    width: 18px;
+    height: 21px;
+    background: url("../images/icon1.jpg") no-repeat;
+}
+.chf_icon .icon2 {
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+    background: url("../images/icon2.jpg") no-repeat;
+}
+.chf_icon .icon3 {
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+    background: url("../images/icon3.jpg") no-repeat;
+}
+.chf_icon .icon4 {
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+    background: url("../images/icon4.jpg") no-repeat;
+}
+.ewm {
+    width: 93px;
+    height: 91px;
+    position: absolute;
+    background: url("../images/wx.jpg") no-repeat ;
+    z-index: 1;
+}
+/*翻书动画特效*/
+#box {
+    width: 1150px;
+    height: 508px;
+    background: url(../images/wlbfanye0.jpg) no-repeat;
+    margin: 50px auto;
+    position: relative;
+    perspective: 1200px;
+    font-family: "microsoft yahei";
+}
+#box .pag1 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform-style: preserve-3d;
+    transistion: 2s all ease;
+    z-index: 2;
+    transform-origin: left center;
+}
+#box .pag1 span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.front {
+    background: url(../images/wlbfanye0.jpg) no-repeat right top;
+    transform: translateZ(1.1px);
+}
+
+.back {
+    background: url(../images/wlbfanye1.jpg) no-repeat left top;
+    transform: translateZ(-1.1px) scale(-1, 1);
+}
+
+.pag2 {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: url(../images/wlbfanye1.jpg) no-repeat right top;
+    z-index: 1;
+}
+/*婚礼资讯*/
+.zixun-container{
+    margin-top: 50px;
+    height: 400px;
+}
+.zixun-container ul{
+    height: 400px;
+}
+.zixun-container  li{
+    float: left;
+    width: 270px;
+    height: 350px;
+    margin-right: 20px;
+    border: 1px solid #e9e9e9;
+    transition: all 3s;
+}
+.zixun-container  li:hover{
+    /*margin-top: -5px;*/
+    /*transition: 0.3s linear;*/
+    transform: translateY(-5px);
+    box-shadow: 0 1px 26px 10px rgba(0,0,0,0.1);
+}
+.zixun-container  li:last-child{
+    margin-right: 0px;
+}
+.zixun-container  li img{
+    width: 270px;
+    margin-bottom: 25px;
+}
+.article-title {
+    color: black;
+    height:42px;
+    padding: 0 10px 0 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.article-desc{
+    padding: 0 10px 0 10px;
+    font-size: 14px;
+    /*color: purple;*/
+    color:#666;
+}
+/*视频旋转部分*/
+.wlinshipin{
+    position: relative;
+}
+.wlinshipin .shipin{
+    width:235px;
+    height:235px;
+    position:absolute;
+    top: 90px;
+    right:0;
+    left:0;
+    margin:auto;
+    perspective:1000px;/*视距*/
+}
+.shipin .scene{
+    transform-style:preserve-3D;/*子元素为3d模式*/
+    width:240px;
+    height:240px;
+    transform-origin:50%;/* 设置旋转的中心点*/
+    float:left; margin-right:60px;
+    -webkit-animation:slide 18s linear infinite;
+    animation:slide 18s linear infinite;
+}
+.shipin .scene ul li{
+    list-style:none;
+    width:235px;
+    height:235px;
+    border:5px solid #FE98D9;
+    position:absolute;
+    border-radius: 15%;
+}
+.shipin .scene ul li img{
+    width:235px;
+    height:235px;
+    border-radius: 15%;
+}
+.shipin .scene ul li:nth-child(1){
+    transform: rotateY(0deg) translateZ(260px);
+}
+.shipin .scene ul li:nth-child(2){
+    transform:rotateY(60deg) translateZ(260px);
+}
+.shipin .scene ul li:nth-child(3){
+    transform:rotateY(120deg) translateZ(260px);
+}
+.shipin .scene ul li:nth-child(4){
+    transform:rotateY(180deg) translateZ(260px);
+}
+.shipin .scene ul li:nth-child(5){
+    transform:rotateY(240deg) translateZ(260px);
+}
+.shipin .scene ul li:nth-child(6){
+    transform:rotateY(300deg) translateZ(260px);
+}
+/*CSS3动画开始*/
+@-webkit-keyframes  slide{
+    from{transform:rotateY(0deg);
+    }
+    to{transform:rotateY(360deg);
+    }
+}
+
+.shipin .scene:hover{
+    -webkit-animation-play-state:paused;
+    animation-play-state:paused;
+}
+.shipin .scene li:hover img{
+    transform:scale(1.2);
+    border:5px solid rgba(255,255,255,0.5)
+}
+.xin{
+    position:fixed;
+    bottom:50px;
+    left:60px;
+    opacity:0;
+    -webkit-animation:xin 8s linear 3;
+    animation:xin 8s linear 3;
+}
+@-webkit-keyframes xin{
+    0%{opacity:1;}/*从什么时候开始*/
+    20%{bottom:300px; left:300px;opacity:0;}
+    40%{bottom:460px; left:680px;opacity:1;}
+    60%{bottom:300px; left:900px;opacity:0;}
+    80%{bottom:50px; left:1100px;opacity:1;}
+    100%{bottom:-150px; left:760px;opacity:0;}
+}

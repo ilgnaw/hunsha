@@ -1,0 +1,48 @@
+/*样式初始化*/
+body,div,p,input,span,dl,dt,form,dd,h1,h2,h3,h4,h5,h6,textarea,img,table,ul,li,ol,button,span{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font: 14px arial, "microsoft yahei";
+}
+li{
+  list-style: none;
+}
+img{
+  border: 0 none;
+  vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
+}
+input {
+  border: 0 none;
+  outline-style: none;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #FF4E7E;
+}
+.w{
+  width: 1150px;
+  margin: 0 auto;
+}
+.chf_fl{
+  float: left;
+}
+.chf_fr{
+  float: right;
+}
+.clearfix:before,.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after{
+  clear: both;
+}
+.clearfix{
+  zoom: 1;
+}
